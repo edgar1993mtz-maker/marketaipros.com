@@ -29,6 +29,11 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <footer className="text-center text-sm text-gray-500 mt-10 p-4">
+  <p>MarketAIPros provides market analytics and educational tools only.</p>
+  <p>We do not provide investment, financial, legal, or tax advice.</p>
+  <p>Trading involves risk. You are solely responsible for your decisions.</p>
+</footer>
     </html>
   );
 }
